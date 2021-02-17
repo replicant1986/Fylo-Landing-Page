@@ -63,7 +63,7 @@ body
 .button-1
 {
     width: 80vw;
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: var(--bright-blue);
     color: white;
     font-size: 1.2rem;
@@ -87,7 +87,7 @@ body
 .button-2
 {
     width: 60vw;
-    margin-top: 10px;
+    margin-top: 22px;
     background-color: var(--bright-blue);
     color: white;
     font-size: 0.8rem;
@@ -303,6 +303,28 @@ nav h3:hover
     color: var(--lt-gray);
 }
 
+#response1
+{
+    color: red;
+    position: relative;
+    right: 25vw;
+    bottom: 8vh;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+}
+
+#response2
+{
+    color: var(--lt-gray-blue);
+    position: relative;
+    right: 15vw;
+    bottom: 18.5vh;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+}
+
 /* Images */
 
 nav img
@@ -325,6 +347,8 @@ nav img
     position: relative;
     margin-top: 250px;
     margin-bottom: 140px;
+    position: relative;
+    left: 10vw;
 }
 
 .arrow
@@ -655,7 +679,6 @@ nav h3 {
     font-size: 0.8rem;
     font-weight: 400;
     font-family: 'Open sans', sans-serif;
-
 }
 
 .phone-email h2
